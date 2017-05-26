@@ -16,7 +16,7 @@ frappe.patches.v8_0.update_records_in_global_search #11-05-2017
 execute:frappe.reload_doc('core', 'doctype', 'custom_docperm')
 execute:frappe.reload_doc('core', 'doctype', 'deleted_document')
 execute:frappe.reload_doc('core', 'doctype', 'version') #2017-04-01
-frappe.patches.v7_2.setup_custom_perms #2017-01-19
+
 frappe.patches.v8_0.set_user_permission_for_page_and_report #2017-03-20
 execute:frappe.reload_doc('core', 'doctype', 'role') #2017-05-23
 execute:frappe.reload_doc('core', 'doctype', 'user')
